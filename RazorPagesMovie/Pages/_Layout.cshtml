@@ -36,7 +36,18 @@
                     <li><a asp-page="/Schedules/Index">Schedules</a></li>
                     <li><a asp-page="/About">About</a></li>
                     <li><a asp-page="/Contact">Contact</a></li>
-                    <li><a asp-page="/Tableau">Tableau</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" area-expanded="false">
+                            Tableau
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a asp-page="/Tableau/FittingCategory">Fitting Category</a></li>
+                            <li><a asp-page="/Tableau/FittingType">Fitting Type</a></li>
+                            <li><a asp-page="/Tableau/Name">Name</a></li>
+                            <li><a asp-page="#">Blank</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>

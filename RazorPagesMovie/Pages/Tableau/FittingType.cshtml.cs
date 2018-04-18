@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace RazorPagesMovie.Pages
+namespace RazorPagesMovie.Pages.Tableau
 {
-    public class TableauModel : PageModel
+    public class FittingTypeModel : PageModel
     {
         public void OnGet()
         {
